@@ -1,0 +1,64 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+}
+
+.cronometro {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10%;
+  box-shadow: 0 0 0 #fff;
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  color: lightgray;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1em;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.btnStart:hover {
+  background-color: #b2d1a1;
+}
+
+.btnPause:hover {
+  background-color: #d1cba1;
+}
+
+.btnStop:hover {
+  background-color: #d1a1a1;
+}
+
+button:active {
+  background-color: #111;
+}
+
+.btnStart {
+  background-color: #b9f798;
+  ;
+}
+
+.btnPause {
+  background-color: #f5ea95;
+}
+
+.btnStop {
+  background-color:#fca4a4 ;
+}
